@@ -4,49 +4,74 @@
     "type": "split",
     "children": [
       {
-        "id": "4196350f5385e357",
-        "type": "tabs",
+        "id": "957e7a5c7c35d387",
+        "type": "split",
         "children": [
           {
-            "id": "2731e533a72fb1ce",
-            "type": "leaf",
-            "state": {
-              "type": "terminal:terminal",
-              "state": {
-                "terminal:terminal": {
-                  "cwd": "C:\\Users\\Babis\\Desktop\\Glowishes AI",
-                  "focus": false,
-                  "profile": {
-                    "args": [],
-                    "executable": "C:\\Windows\\System32\\cmd.exe",
-                    "followTheme": true,
-                    "name": "",
-                    "platforms": {
-                      "win32": true
-                    },
-                    "pythonExecutable": "python3",
-                    "restoreHistory": false,
-                    "rightClickAction": "copyPaste",
-                    "successExitCodes": [
-                      "0",
-                      "SIGINT",
-                      "SIGTERM"
-                    ],
-                    "terminalOptions": {
-                      "documentOverride": null
-                    },
-                    "type": "integrated",
-                    "useWin32Conhost": true
-                  },
-                  "profileSourceId": "win32IntegratedDefault",
-                  "serial": null
+            "id": "083217439f8d9240",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "69ec818ce8665fe2",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {},
+                  "icon": "lucide-file",
+                  "title": "New tab"
                 }
-              },
-              "icon": "terminal",
-              "title": "Terminal: ⠂ Check Obsidian integration with project"
-            }
+              }
+            ]
+          },
+          {
+            "id": "0673b6d958609769",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "4f18a791c8f0c68c",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "terminal:terminal",
+                  "state": {
+                    "terminal:terminal": {
+                      "cwd": "C:\\Users\\Babis\\Desktop\\Glowishes AI",
+                      "focus": false,
+                      "profile": {
+                        "args": [],
+                        "executable": "C:\\Windows\\System32\\cmd.exe",
+                        "followTheme": true,
+                        "name": "",
+                        "platforms": {
+                          "win32": true
+                        },
+                        "pythonExecutable": "python3",
+                        "restoreHistory": false,
+                        "rightClickAction": "copyPaste",
+                        "successExitCodes": [
+                          "0",
+                          "SIGINT",
+                          "SIGTERM"
+                        ],
+                        "terminalOptions": {
+                          "documentOverride": null
+                        },
+                        "type": "integrated",
+                        "useWin32Conhost": true
+                      },
+                      "profileSourceId": "win32IntegratedDefault",
+                      "serial": null
+                    }
+                  },
+                  "pinned": true,
+                  "icon": "terminal",
+                  "title": "Terminal: ✳ Set up Obsidian vault for project folder"
+                }
+              }
+            ]
           }
-        ]
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -225,8 +250,19 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "2731e533a72fb1ce",
+  "active": "4f18a791c8f0c68c",
   "lastOpenFiles": [
+    "memory/sessions/2026-05-17-session-recap.md",
+    "2026-05-19.md",
+    "memory/sessions/2026-05-17-session-recap.md.tmp.32596.429839bd869b",
+    "memory/sessions/2026-05-15-session-recap.md",
+    "memory/sessions/2026-05-15-session-recap.md.tmp.32596.9f22e5fa2ecc",
+    "memory/sessions/2026-05-14-session-recap.md",
+    "memory/sessions/2026-05-14-session-recap.md.tmp.32596.7ef14443725a",
+    "memory/sessions/2026-05-12-session-recap.md",
+    "memory/sessions/2026-05-12-session-recap.md.tmp.32596.01bd0b034f97",
+    "memory/sessions/2026-05-10-session-recap.md",
+    "memory/sessions/2026-05-10-session-recap.md.tmp.32596.49696482253b",
     "memory/INDEX.md",
     "Untitled.base"
   ]
