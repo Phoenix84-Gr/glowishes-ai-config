@@ -129,19 +129,16 @@ Do not mix platform-specific publishing rules in one file unless the file is a c
 <claude-mem-context>
 # Memory Context
 
-# [Glowishes AI] recent context, 2026-05-15 12:05am GMT+3
+# [Glowishes AI] recent context, 2026-05-19 12:00am GMT+3
 
 Legend: 🎯session 🔴bugfix 🟣feature 🔄refactor ✅change 🔵discovery ⚖️decision 🚨security_alert 🔐security_note
 Format: ID TIME TYPE TITLE
 Fetch details: get_observations([IDs]) | Search: mem-search skill
 
-Stats: 42 obs (19,446t read) | 251,699t work | 92% savings
+Stats: 50 obs (20,960t read) | 229,385t work | 91% savings
 
 ### May 7, 2026
-1 11:26p 🔵 Glowishes AI Operations Blueprint reviewed and understood
-2 " 🔵 Pre-built skills available in local Skills folder
-3 11:27p 🔵 marketing-studio-director skill extracted and examined
-4 " 🔵 marketing-studio-director skill detailed architecture and rules documented
+4 11:27p 🔵 marketing-studio-director skill detailed architecture and rules documented
 5 " 🔵 gpt-image-2-director skill capabilities and routing logic documented
 6 11:51p ✅ Initialize skill and agent directory structure for Glowishes AI project
 7 11:52p 🟣 Implement excalidraw-architect skill for diagram generation
@@ -176,34 +173,40 @@ Stats: 42 obs (19,446t read) | 251,699t work | 92% savings
 33 10:15p 🔵 Codex and Claude harnesses configured with distinct MCP servers and plugin suites
 34 " 🔵 Complete Glowishes AI system architecture mapped with dual-toolchain separation
 35 10:17p ⚖️ Reorganization plan created for tool-based folder separation
-S23 Update AGENTS.md with shared memory context documenting how Codex and Claude will maintain parallel, synchronized memory using the Obsidian-based memory/ folder (May 10, 10:57 PM)
 ### May 12, 2026
 36 11:50a 🔵 Dual-agent memory architecture with Obsidian integration already established
-S24 Update AGENTS.md file to include shared memory context and parallel memory rules for Claude and Codex agents working in the Glowishes AI project (May 12, 11:51 AM)
-S25 Update AGENTS.md with memory context and install Higgsfield AI skills package for the Glowishes project (May 12, 12:02 PM)
 37 12:02p 🔵 PowerShell Execution Policy Blocks NPX Commands
 38 12:04p 🔵 NPM Registry Access Blocked by Permissions/File Access Issues
 39 12:05p 🟣 Higgsfield AI Skills Package Successfully Installed
-S26 Setup and integration of Higgsfield CLI with Claude Code and Codex agents (May 12, 12:05 PM)
 40 12:10p 🔵 Higgsfield CLI integration capabilities and setup procedures
-S27 Determine if Higgsfield skill, CLI, and MCP need to be installed twice (once for Codex, once for Claude) or if a single installation suffices for both agents (May 12, 12:10 PM)
-S28 How to open Claude chat inside VS Code (May 12, 10:30 PM)
 ### May 13, 2026
-S29 Reviewed OpenAI Codex Hooks documentation and identified configuration changes needed for faster, safer operation of the Glowishes workspace (May 13, 10:31 PM)
 41 11:19p 🔵 Global Codex Configuration and Marketplace Setup
-S30 Set up Codex hooks for the Glowishes AI project to enforce workspace policies and prevent unsafe operations (May 13, 11:29 PM)
 42 11:33p 🟣 Glowishes workspace hooks configured for policy enforcement
-S31 User asked if they can work with both CLAUDE and CODEX tools together in the same "Glowishes AI" folder and requested organization suggestions for the workspace structure (May 13, 11:37 PM)
 ### May 14, 2026
-S32 User asked about folder organization for Obsidian vault and clarified the purpose of RAW and SHARED folders in the Glowishes AI project structure (May 14, 12:01 AM)
-**Investigated**: Explored the role of .obsidian/ folder, purpose of RAW DATA BASE SOURCE folder for draft/messy materials, and SHARED folder for cleaned working files between agents
+S34 User asked for explanation of "Hand off chat to worktree" concept and its purpose (May 14, 12:01 AM)
+### May 15, 2026
+S36 Selective git push of essential files (CLAUDE/, CODEX/, memory/, SHARED/, AGENTS.md) with review of staged content before commit (May 15, 12:05 AM)
+S37 Selective git push of essential workspace files (CLAUDE, CODEX, SHARED, memory, AGENTS.md) to GitHub (May 15, 12:10 AM)
+S38 Remediate exposed Firecrawl API key detected by GitGuardian in GitHub repository (May 15, 12:12 AM)
+45 12:20a 🚨 Firecrawl API Key Exposed in Git History
+S39 Remediate exposed Firecrawl API key from GitHub repository after manual revocation (May 15, 12:21 AM)
+S40 Remove exposed Firecrawl API key from git history and configure repository to prevent future exposure (May 15, 12:21 AM)
+S41 Remediate exposed Firecrawl API key from GitHub repository and implement credential rotation (May 15, 12:22 AM)
+46 12:23a ✅ Firecrawl API Key Removed from Git Tracking
+47 " ✅ Exposed API Key Removed from Remote Git History
+S42 User requested information about an unspecified repository and asked whether it enables WiFi-based people movement tracking at their location (May 15, 12:23 AM)
+S43 User asked about an unspecified repository and whether it enables WiFi-based people movement tracking (May 15, 1:12 AM)
+48 1:13a 🔵 GitHub CLI repo view command does not support readme field
+49 " 🔵 Ruflo is an agent orchestration platform for Claude, not a WiFi tracking tool
+50 1:14a 🔵 Ruflo installation is straightforward; unrelated to WiFi tracking
+### May 17, 2026
+51 10:52p 🔵 Obsidian vault already configured in GLOWISHES AI folder
+52 " 🔵 GLOWISHES AI workspace has organized memory and shared content structure
+S44 Review GLOWISHES AI folder structure to determine if entire folder should be an Obsidian vault vs creating a separate vault inside it (May 17, 10:52 PM)
+### May 18, 2026
+53 11:41p 🔵 Codex plugin cache access blocked by Windows sandbox isolation
+54 11:46p ⚖️ V1 Agentic Dashboard Architecture Decisions
+55 11:49p ⚖️ V1 Data, Scheduling, and Approval Infrastructure Decisions
 
-**Learned**: .obsidian/ contains only Obsidian app settings (workspace, plugins, themes) not content; RAW DATA BASE SOURCE holds unprocessed inputs (photos, product files, supplier info, screenshots); SHARED contains cleaned files trusted by both Claude and Codex agents; separation of raw product claims from approved/compliant claims is critical for marketing safety
-
-**Completed**: Designed comprehensive folder structure for Glowishes AI project with clear separation: memory/ for decisions/history, RAW DATA BASE SOURCE/ for messy inputs, SHARED/ for inter-agent working files, CLAUDE/ and CODEX/ for agent-specific outputs, .obsidian/ for settings only; established rule that raw materials must be cleaned before moving to approved/shared status
-
-**Next Steps**: Implementation of the recommended folder hierarchy in the Glowishes AI project; organization of existing files into appropriate folders; potentially rename RAW DATA BASE SOURCE to cleaner convention like RAW_SOURCE or SOURCE_LIBRARY
-
-
-Access 252k tokens of past work via get_observations([IDs]) or mem-search skill.
+Access 229k tokens of past work via get_observations([IDs]) or mem-search skill.
 </claude-mem-context>

@@ -1,7 +1,7 @@
 {
   "permissions": {
     "allow": [
-      "Bash(powershell -Command \"Expand-Archive -Path 'marketing-studio-director.skill' -DestinationPath 'temp_marketing' -Force; Get-Content 'temp_marketing\\\\marketing-studio-director\\\\SKILL.md' | head -100\")"
+      "WebFetch(domain:higgsfield.ai)"
     ]
   }
 }

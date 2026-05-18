@@ -1,0 +1,10 @@
+Push is manual — always
+Nothing is automatic. Git never pushes without you telling it to. This is intentional — you control what goes to GitHub and when.
+Your daily 3-command habit after any work session:
+
+git add .
+git commit -m "feat(scope): what you built"
+git push
+
+
+That's it. git push alone works from now on because the branch is already linked to GitHub (set up to track 'origin/main' — you saw that in the output).
