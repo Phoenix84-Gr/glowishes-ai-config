@@ -7,11 +7,41 @@
   "showOrphans": true,
   "collapse-color-groups": true,
   "colorGroups": [
-    { "query": "path:memory/sessions", "color": { "a": 1, "rgb": 3640655 } },
-    { "query": "path:memory/decisions", "color": { "a": 1, "rgb": 16737843 } },
-    { "query": "path:CODEX", "color": { "a": 1, "rgb": 5793266 } },
-    { "query": "path:SHARED", "color": { "a": 1, "rgb": 10066329 } },
-    { "query": "path:CLAUDE", "color": { "a": 1, "rgb": 16750899 } }
+    {
+      "query": "path:memory/sessions",
+      "color": {
+        "a": 1,
+        "rgb": 3640655
+      }
+    },
+    {
+      "query": "path:memory/decisions",
+      "color": {
+        "a": 1,
+        "rgb": 16737843
+      }
+    },
+    {
+      "query": "path:CODEX",
+      "color": {
+        "a": 1,
+        "rgb": 5793266
+      }
+    },
+    {
+      "query": "path:SHARED",
+      "color": {
+        "a": 1,
+        "rgb": 10066329
+      }
+    },
+    {
+      "query": "path:CLAUDE",
+      "color": {
+        "a": 1,
+        "rgb": 16750899
+      }
+    }
   ],
   "collapse-display": true,
   "showArrow": false,
@@ -23,6 +53,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.3628873693012105,
+  "scale": 0.2588386562181619,
   "close": false
 }
