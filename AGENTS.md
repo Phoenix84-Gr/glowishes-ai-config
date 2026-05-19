@@ -129,18 +129,15 @@ Do not mix platform-specific publishing rules in one file unless the file is a c
 <claude-mem-context>
 # Memory Context
 
-# [Glowishes AI] recent context, 2026-05-19 12:09am GMT+3
+# [Glowishes AI] recent context, 2026-05-19 7:31am GMT+3
 
 Legend: 🎯session 🔴bugfix 🟣feature 🔄refactor ✅change 🔵discovery ⚖️decision 🚨security_alert 🔐security_note
 Format: ID TIME TYPE TITLE
 Fetch details: get_observations([IDs]) | Search: mem-search skill
 
-Stats: 50 obs (18,927t read) | 135,481t work | 86% savings
+Stats: 50 obs (18,896t read) | 135,125t work | 86% savings
 
 ### May 8, 2026
-16 12:03a 🟣 Custom Skills Installed: marketing-studio-director and gpt-image-2-director
-17 " 🔵 Complete Skill Inventory Revealed via Git Staging
-18 12:04a ✅ Glowishes Agentic OS Committed to Version Control
 19 12:06a ✅ Glowishes Agentic OS Deployed to GitHub
 20 12:11a 🟣 Glowishes Agentic OS Foundation — Skills Framework
 21 " ⚖️ Agentic OS Architecture — Role Division
@@ -170,9 +167,7 @@ Stats: 50 obs (18,927t read) | 135,481t work | 86% savings
 41 11:19p 🔵 Global Codex Configuration and Marketplace Setup
 42 11:33p 🟣 Glowishes workspace hooks configured for policy enforcement
 ### May 15, 2026
-S38 Remediate exposed Firecrawl API key detected by GitGuardian in GitHub repository (May 15, 12:12 AM)
 45 12:20a 🚨 Firecrawl API Key Exposed in Git History
-S39 Remediate exposed Firecrawl API key from GitHub repository after manual revocation (May 15, 12:21 AM)
 S40 Remove exposed Firecrawl API key from git history and configure repository to prevent future exposure (May 15, 12:21 AM)
 S41 Remediate exposed Firecrawl API key from GitHub repository and implement credential rotation (May 15, 12:22 AM)
 46 12:23a ✅ Firecrawl API Key Removed from Git Tracking
@@ -194,9 +189,10 @@ S45 Clarify scope and requirements for agentic orchestrator system v1 (5-day tar
 ### May 19, 2026
 S46 Prepare caveman-commit for skill consolidation and higgsfield reference updates (May 19, 12:00 AM)
 56 12:01a 🔄 Major skill cleanup and directory consolidation
+S47 Investigate and resolve Obsidian vault configuration for automated memory management (May 19, 12:01 AM)
 57 12:02a 🔵 Glowishes AI workspace uses Obsidian vault with standard plugin stack
 58 " 🔵 Glowishes AI uses structured memory system with auto-indexed sessions and decisions
-S47 Investigate and resolve Obsidian vault configuration for automated memory management (May 19, 12:03 AM)
+S48 Review and plan improvements for an Excalidraw blueprint of an agentic operating system orchestrating a Shopify store, marketing, social media, and more. Define structure and approach for a cleaner, more buildable design. (May 19, 12:03 AM)
 59 12:04a 🔵 Glowishes AI is agentic OS for K-beauty e-commerce with 9 skills and multi-domain architecture
 60 12:05a ⚖️ Glowishes Agentic OS architecture separates Claude (strategy) from Codex (execution)
 61 12:07a ✅ Obsidian plugin registration fixed; vault restoration plan created
@@ -206,6 +202,18 @@ S47 Investigate and resolve Obsidian vault configuration for automated memory ma
 65 " ⚖️ Git worktrees adopted as development pattern for parallel experimental branches
 66 " 🚨 Firecrawl API key exposed in GitHub; detected by GitGuardian and remediated
 67 " ⚖️ Obsidian vault encompasses entire Glowishes AI project folder for unified knowledge graph
+68 12:11a 🔵 Obsidian vault fully configured in Glowishes AI project
+69 12:12a 🔵 Obsidian configured with auto-sync via Git and full knowledge graph linking
+70 7:28a ✅ Configured Obsidian graph color groups for semantic folder organization
+S49 Verify Obsidian works at project folder and determine configuration needed for proper syncing and graph linking (May 19, 7:28 AM)
+**Investigated**: Obsidian vault configuration at C:\Users\Babis\Desktop\Glowishes AI; graph.json color group settings; obsidian-git plugin sync behavior and auto-commit schedule
+
+**Learned**: Obsidian graph visualization supports path-based color groups for semantic organization; obsidian-git is already configured with 10-minute auto-commit cycles and auto-push behavior; color-coding improves navigation of large knowledge graphs by folder type
+
+**Completed**: Added five color-coded path groups to .obsidian/graph.json: memory/sessions (blue), memory/decisions (orange), CODEX (green), SHARED (gray), and CLAUDE (yellow); confirmed obsidian-git auto-sync is functional and requires no changes
+
+**Next Steps**: User must manually enable community plugins in Obsidian settings, reload the vault, and open graph view (Ctrl+G) to see color-coded clusters. Optional: add [[wikilinks]] in session recap files to link to related decisions and skills for richer graph connectivity
+
 
 Access 135k tokens of past work via get_observations([IDs]) or mem-search skill.
 </claude-mem-context>
